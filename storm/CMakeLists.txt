@@ -53,6 +53,8 @@ target_include_directories(storm
 target_link_libraries(storm
     PRIVATE
         system
+    PUBLIC
+        stormlib-9.31
 )
 
 if(HAS_NO_INVALID_OFFSETOF)
